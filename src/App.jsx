@@ -8,6 +8,7 @@ import About from "./Components/About/About";
 import Login from "./Components/Authantication/Login/Login";
 import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
 import Cart from "./Components/Cart/Cart";
+import Cate from "./Components/Cate/Cate";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/cate" element={<Cate />} />
           <Route path="/categories" element={<AllCategories />} />
           <Route path="/about" element={<About />} />
           <Route path="/categories/:categoryName" element={

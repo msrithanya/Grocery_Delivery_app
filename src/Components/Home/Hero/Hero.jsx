@@ -34,7 +34,7 @@ const Hero = () => {
 
                             {/* Shop_now Btn */}
                             <Button
-                                onClick={() => navigate('/products')}
+                                onClick={() => navigate('/cate')}
                                 sx={{ textTransform: 'capitalize' }}
                                 variant='contained'
                                 size={isMediumScreen ? 'medium' : 'large'}
