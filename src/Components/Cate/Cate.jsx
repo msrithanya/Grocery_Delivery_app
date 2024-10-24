@@ -3,8 +3,9 @@ import './Cate.css';
 function Cate() {
   return (
     <div className='container'>
-        <div><img src='G'</div>
+        <div className='gro'><img src='Grocery.png'/></div>
         <div></div>
+        
     </div>
   )
 }
